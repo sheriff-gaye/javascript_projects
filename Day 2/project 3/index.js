@@ -6,7 +6,7 @@ circle.addEventListener('mouse', () => {
     }
 });
 
-circle.addEventListener('mouseeave', () => {
+circle.addEventListener('mouseleave', () => {
     if (circle.classList.contains('hover')) {
         circle.classList.remove('hover');
     }
