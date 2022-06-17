@@ -1,6 +1,6 @@
-
-
-console.log("hello world")
-
-//getting id from html and chnaging the inner html
-document.getElementById("demo").innerHTML="Hello world";
+//js changing function
+function myfunction()
+{
+    document.getElementById("p").innerHTML="Hello World";
+    document.getElementById('span').innerHTML="Welcome to the world of Javascript"
+}
