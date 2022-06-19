@@ -51,6 +51,7 @@ body
     height: 50px;
     font-size: 15px;
     border-radius: 10px;
+    font-weight: bold;
 
 }
 .plus
@@ -70,4 +71,8 @@ body
     border:none;
     color: white;
     background: gray;
+}
+button i
+{
+    font-size: 30px;
 }
