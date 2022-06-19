@@ -10,7 +10,7 @@ body
     display: flex;
     height: 100vh;
     justify-content: center;
-    background:darkcyan;
+    background:#ccc;
     align-items: center;
 }
 .container
