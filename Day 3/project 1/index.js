@@ -15,3 +15,10 @@ function minus() {
     }
     counter.innerHTML = count
 }
+
+function reset()
+{
+    count=0
+
+    counter.innerHTML=count
+}
