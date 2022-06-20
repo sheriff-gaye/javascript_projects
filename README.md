@@ -1,3 +1,5 @@
 **JAVASCRIPT 50 DAYS OF CODE**
-#Learning Javascript by building mini project along side 
+<ol>
+<li><b>Counter:</b> It counts from  0 to increase with increase , decrease and reset functionality</li>
+</ol>
 
