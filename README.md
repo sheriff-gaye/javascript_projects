@@ -19,7 +19,7 @@
 <tr>
 <td>2</td>
 <td>Counter</td>
-<td><a href="https://sheriff-gaye.github.io/Javascript_mini_projects/index.html" >Live Demo</a><td>
+<td><a href="https://sheriff-gaye.github.io/Javascript_mini_projects/counter/index.html" >Live Demo</a><td>
 
 
 </tbody>
