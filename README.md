@@ -1,6 +1,6 @@
 **JAVASCRIPT MINI PROJECTS**
 
-<table border="1" cellspacing="10" width="400" cellpadding="5">
+<table border="1" style="width:500px">
 <thead>
     <tr>
         <th>No.</th>
