@@ -8,7 +8,7 @@
        <th>LINK</th>
 </thead>
 
-<tbody>cellspacing="5" width="200" cellpadding="5"
+<tbody>
 <td>1</td>
 <td>Monkey Smile</td>
 <td><a href="https://sheriff-gaye.github.io/Javascript_mini_projects/monkey_smile/index.html" >Live Demo</a>
