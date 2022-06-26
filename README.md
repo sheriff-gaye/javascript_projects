@@ -1,6 +1,6 @@
-**JAVASCRIPT MINI PROJECTS**
+<h2 style="text-align:center">JAVASCRIPT MINI PROJECTS</h2>
 
-<table border="1" cellspacing="5" width="500" cellpadding="5">
+<table border="1" cellspacing="5" width="500" cellpadding="5" style="margin-left:50px">
 <thead>
     <tr>
         <th>No.</th>
@@ -29,6 +29,16 @@
 <td>Review</td>
 <td><a href="https://sheriff-gaye.github.io/Javascript_mini_projects/review/index.html" >Live Demo</a>
 
+<tr>
+<td>5</td>
+<td>Color Generator</td>
+<td><a href="https://sheriff-gaye.github.io/Javascript_mini_projects/color_changer/index.html" >Live Demo</a>
+
+<tr>
+<td>6</td>
+<td>Array Design</td>
+<td><a href="https://sheriff-gaye.github.io/Javascript_mini_projects/array_design/index.html" >Live Demo</a>
 </tbody>
 
 </table>
+
