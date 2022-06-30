@@ -91,3 +91,13 @@ p {
     margin: 0 0.8rem;
     margin-top: 17px;
 }
+@media (max-width: 500px) {
+    .card {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .user-form {
+      max-width: 400px;
+    }
+  }
