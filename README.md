@@ -42,7 +42,7 @@
 <tr>
 <td>7</td>
 <td>Github Profile</td>
-<td><a href="https://sheriff-gaye.github.io/Javascript_mini_projects/Git/index.html" >Live Demo</a>
+<td><a href="https://sheriff-gaye.github.io/Javascript_mini_projects/Github-profile/index.html" >Live Demo</a>
 
 
 <tr>
