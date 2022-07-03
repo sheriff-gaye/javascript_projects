@@ -44,6 +44,13 @@
 <td>Github Profile</td>
 <td><a href="https://sheriff-gaye.github.io/Javascript_mini_projects/Git/index.html" >Live Demo</a>
 
+
+<tr>
+<td>7</td>
+<td>Quizz App</td>
+<td><a href="https://sheriff-gaye.github.io/Javascript_mini_projects/quiz-app/index.html" >Live Demo</a>
+
+
 </tbody>
 
 </table>
