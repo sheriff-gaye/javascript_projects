@@ -50,6 +50,12 @@
 <td>Quizz App</td>
 <td><a href="https://sheriff-gaye.github.io/Javascript_mini_projects/quiz-app/index.html" >Live Demo</a>
 
+<tr>
+<td>8</td>
+<td>Progress Loader</td>
+<td><a href="https://sheriff-gaye.github.io/Javascript_mini_projects/progress-steps/index.html" >Live Demo</a>
+
+
 
 </tbody>
 
