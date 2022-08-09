@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-color: #eee;
+}
+.container{
+    height: 300px;
+    width: 600px;
+    background-color: rgb(3, 3, 49);
+    border-radius: 50px;
+}
+.time{
+    display: flex;
+    margin-left:165px;
+    color: white;
+    font-size:80px;
+    margin-top: 70px;
+}
+.buttons
+{
+    display: flex;
+    margin-left: 150px;
+}
+button{
+    background: red;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 80px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 50px;
+}
+button:hover{
+    opacity: 0.8;
+}
