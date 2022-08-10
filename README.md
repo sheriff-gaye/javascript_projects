@@ -60,6 +60,11 @@
 <td>Timer</td>
 <td><a href="https://sheriff-gaye.github.io/Javascript_mini_projects/timer/index.html" >Live Demo</a>
 
+<tr>
+<td>10</td>
+<td>Modal</td>
+<td><a href="https://sheriff-gaye.github.io/Javascript_mini_projects/modal/index.html" >Live Demo</a>
+
 
 
 </tbody>

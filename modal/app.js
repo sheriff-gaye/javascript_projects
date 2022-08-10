@@ -1,12 +1,14 @@
+const open_btn = document.querySelector('.open_modal');
+const close_btn = document.querySelector('.btn')
 
-const modal=document.getElementById('modal')
+const popup = document.querySelector('.popup');
 
-const open=document.getElementById('open')
+open_btn.addEventListener('click', () => {
 
+    popup.classList.remove('modal');
+})
 
+close_btn.addEventListener('click', () => {
 
-function close(){
-
-    modal.classList.add('modal')
-
-}
+    popup.classList.add('modal');
+})
