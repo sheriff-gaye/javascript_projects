@@ -26,3 +26,7 @@ faqs.forEach(faq=>{
         }
     })
 })
+
+
+
+

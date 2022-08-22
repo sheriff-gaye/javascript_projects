@@ -182,8 +182,9 @@
     <!--frequently ask questions-->
 
     <section class="faqs">
-      <div class="container faqs_container">
+      <h2>Frequently Ask Question</h2>
 
+      <div class="container faqs_container">
         <article class="faq">
           <div class="faq_icon"><i class="uil uil-plus"></i></div>
           <div class="question_answer">
@@ -261,15 +262,108 @@
         </article>
       </div>
     </section>
-<!--end of faqs-->
+    <!--end of faqs-->
 
-<!--students testimonial-->
-<section class="container testimonail_testimonial">
-  
+    <!--students testimonial-->
+    <section class="container testimonail_testimonial swiper mySwiper">
+      <h2>Students Testimonials</h2>
+      <div class="swiper-wrapper">
+        <article class="testimonial swiper-slide">
+          <div class="avater">
+            <img src="./images/avatar1.jpg" alt="" />
+            <h5>Sheriff Gaye</h5>
+            <small>Students</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium aut in deleniti dolorem error quisquam! Ad cum
+              pariatur qui iure, possimus eos deleniti dolorem vero, incidunt
+              odit optio consequatur illum?
+            </p>
+          </div>
+        </article>
 
-<!---end of student testimonial-->
+        <article class="testimonial swiper-slide">
+          <div class="avater">
+            <img src="./images/avatar2.jpg" alt="" />
+            <h5>Sheriff Gaye</h5>
+            <small>Students</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium aut in deleniti dolorem error quisquam! Ad cum
+              pariatur qui iure, possimus eos deleniti dolorem vero, incidunt
+              odit optio consequatur illum?
+            </p>
+          </div>
+        </article>
 
-</section>
+        <article class="testimonial swiper-slide">
+          <div class="avater">
+            <img src="./images/avatar3.jpg" alt="" />
+            <h5>Sheriff Gaye</h5>
+            <small>Students</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium aut in deleniti dolorem error quisquam! Ad cum
+              pariatur qui iure, possimus eos deleniti dolorem vero, incidunt
+              odit optio consequatur illum?
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avater">
+            <img src="./images/avatar4.jpg" alt="" />
+            <h5>Sheriff Gaye</h5>
+            <small>Students</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium aut in deleniti dolorem error quisquam! Ad cum
+              pariatur qui iure, possimus eos deleniti dolorem vero, incidunt
+              odit optio consequatur illum?
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avater">
+            <img src="./images/avatar5.jpg" alt="" />
+            <h5>Sheriff Gaye</h5>
+            <small>Students</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium aut in deleniti dolorem error quisquam! Ad cum
+              pariatur qui iure, possimus eos deleniti dolorem vero, incidunt
+              odit optio consequatur illum?
+            </p>
+          </div>
+        </article>
+      </div>
+
+      <!---end of student testimonial-->
+    </section>
     <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        slidesPerView: "auto",
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    
+    </script>  
   </body>
 </html>
