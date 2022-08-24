@@ -29,4 +29,23 @@ faqs.forEach(faq=>{
 
 
 
+//nav bar  media query open and close
 
+const menu=document.querySelector('.nav_menu')
+const openBtn=document.querySelector('#open-menu-btn')
+const closeBtn=document.querySelector('#close-menu-btn')
+
+
+openBtn.addEventListener('click',()=>{
+    menu.style.display="flex";
+    openBtn.style.display="none";
+    closeBtn.style.display="inline-block";
+
+})
+
+closeBtn.addEventListener('click',()=>{
+    menu.style.display="none";
+    openBtn.style.display="inline-block"
+    closeBtn.style.display="none"
+
+})

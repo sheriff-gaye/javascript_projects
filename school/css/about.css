@@ -1,0 +1,100 @@
+
+.about_achievement{
+    margin-top: 3rem;
+}
+
+.achivement_container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap:1.5rem;
+}
+.achivement_right > p{
+    margin: 1.6rem 0 2.5rem;
+
+
+}
+.achievement_cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1.5rem;
+}
+.achievement_card{
+    padding: 1.6rem;
+    border-radius: 1rem;
+    text-align: center;
+    background: var(--color-bg1);
+    transition: var(--transition);
+}
+.achievement_card:hover{
+    background: var(--color-bg2);
+    box-sizing: 0 3rem 3rem rgba(0,0,0,0.3rem);
+}
+.achievement_icon{
+    background: var(--color-danger);
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    padding: 0.6rem;
+    display: inline-block;
+}
+.achievement_card:nth-child(2) .achievement_icon{
+    background: var(--color-success);
+}
+.achievement_card:nth-child(3) .achievement_icon{
+    background: var(--color-primary);
+}
+.achievement_card p{
+    margin-top: 1rem;
+}
+
+.team{
+    background: var(--color-bg1);
+    box-shadow: inset 0 0 3rem rgba(0,0,0,0.5);
+}
+.team_container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+}
+.team_member{
+    background: var(--color-bg2);
+    border: 1px solid transparent;
+    padding: 2rem;
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+.team_member:hover{
+    background: transparent;
+    border-color: var(--color-primary);
+}
+.team_member-image img{
+    filter: saturate(0);
+}
+.team_member:hover img{
+    filter: saturate(1);
+}
+.team_member-info *{
+    text-align: center;
+    margin-top: 1.4rem;
+}
+.team_member-info p{
+    color:var(--color-light);
+}
+.team_socials{
+    position: absolute;
+    top:50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem 0 0 1rem;
+    background: var(--color-primary);
+    box-shadow: -2rem 0 2rem rgba(0,0,0,0.3);
+    right: -100%;
+}
+.team_socials a{
+    padding: 1rem;
+}
+.team_member:hover .team_socials{
+    right: 0;
+}
