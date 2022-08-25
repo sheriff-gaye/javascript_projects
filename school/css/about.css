@@ -98,3 +98,51 @@
 .team_member:hover .team_socials{
     right: 0;
 }
+
+/* ============================TABLET MEDIA QUERY================================ */
+
+@media screen and (max-width:1024px) {
+    .about_achievement{
+        margin-top: 3rem;
+    }
+    .achivement_container{
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+    .achivement_left{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .team_container{
+        grid-template-columns: repeat(3 ,1fr);
+        gap: 1.5rem;
+    }
+    .team_member{
+        padding: 1rem;
+    }
+    
+}
+
+/* ================================TABLET MEDIA END===================================== */
+
+
+/* ========================================MOBILE MEDIA QUERY================================= */
+
+@media screen and (max-width:600px) {
+
+    .team_container{
+        grid-template-columns: 1fr 1fr;
+        gap: 0.7rem;
+    }
+    .team_member{
+        padding: 0;
+    }
+    .team_member p{
+        margin-bottom: 1.5rem;
+    }
+
+
+    
+}
+
+/* ====================================MOBILE MEDIA ENDS============================================== */
