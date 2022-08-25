@@ -68,7 +68,7 @@
 
 <tr>
 <td>10</td>
-<td>Modal</td>
+<td>School Website</td>
 <td><a href="https://sheriff-gaye.github.io/Javascript_mini_projects/school/index.html" >Live Demo</a>
 
 
