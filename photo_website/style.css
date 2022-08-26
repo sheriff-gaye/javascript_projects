@@ -1,0 +1,119 @@
+:root{
+
+    --color-primary:#ff7b02;
+    --color-primary-variant:#e5a55d;
+    --color-bg-1:#000e17;
+    --color-bg-2:#001e2d;
+    --color-bg-3:#012734;
+    --color-bg-4:#003347;
+    --color-light:#85a2b2;
+    --color-white:hsl(0,0%,90%);
+      
+
+    --container-width-lg:88%;
+    --container-width-md:92%;
+
+    --transition:all 400ms ease; 
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat',sans-serif;
+    background: var(--color-bg-3);
+    color: var(--color-light);
+    height: 1.7;
+}
+h1,h2{
+    font-size: 1.1;
+    font-weight: 400;
+}
+h1{
+    font-size: 4rem;
+    color: var(--color-white);
+}
+h2{
+    font-size: 3.5rem;
+
+}
+a{
+    color: var(--color-light);
+    transition: var(--transition);
+}
+a:hover{
+    color: var(--color-primary);
+}
+
+.container{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+    max-width: 2160px;
+
+}
+img{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* ===============================Nav================== */
+
+
+nav{
+    height: 5rem;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.nav_container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_toggle-btn{
+    display: none;
+
+}
+.nav_logo{
+    width: 7.5rem;
+}
+
+.nav_links{
+    display: flex;
+    gap :4rem;
+}
+
+.nav_socials{
+    display: flex;
+    gap: 1rem;
+}
+.nav_socials a{
+    width: 2rem;
+    height:2rem;
+    background: red;
+    display: grid;
+    background: linear-gradient(var(--color-primary-variant), var(--color-primary));
+    border-radius: 0.5rem;
+    color: var(--color-bg-4);
+    place-items: center;
+}
+.nav_socials a:hover{
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.4);
+}
+.window-scrolled{
+    background:var(--color-bg-2);
+    border-bottom: 0.2rem;
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.3); 
+}
