@@ -189,3 +189,68 @@ header{
 .header_btn-md{
     display: none;
 }
+.header_frames{
+    position: absolute;
+    right: 44rem;
+    top: 88vh;
+    transition: var(--transition);
+}
+.header_frame{
+    width: 14rem;
+    border: 0.4rem solid var(--color-bg-3);
+    box-shadow: 0 0 4rem rgba(0,0,0,0.5);
+    position: absolute;
+    transform: rotate(-10deg);
+    transform: bottom left;
+    transition: var(--transition);
+    
+}
+    
+.header_frame:nth-child(2){
+    transform: rotate(20deg);
+    top: -2rem;
+    left: 2rem;
+}
+
+.header_frames:hover .header_frame{
+    transform: rotate(0);
+}
+
+.header_frames:hover .header_frame:nth-child(2){
+    top: 0;
+    left: 15rem;
+}
+.contact_btn{
+    color: var(--color-bg-1);
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    transition: var(--transition);
+
+
+}
+.header_btn{
+    position: absolute;
+    right: 6%;
+    background: linear-gradient(30deg,var( --color-primary-variant),var(--color-primary),var(--color-primary-variant));
+    bottom: -3rem;
+}
+.header_btn:hover{
+    color: var(--color-bg-1);
+    transform:translateY(-1rem);
+    box-shadow: 0 2rem 2rem rgba(0,0,0,0.3);
+}
+.contact_btn i{
+    position: absolute;
+    font-size: 3.5rem;
+}
+.contact_btn p{
+    font-size: 1rem;
+    font-weight: 500;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
