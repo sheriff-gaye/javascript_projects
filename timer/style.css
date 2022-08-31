@@ -25,6 +25,9 @@ body{
     display: flex;
     margin-left: 150px;
 }
+.buttons i{
+    font-size: 30px;
+}
 button{
     background: red;
     color: white;
@@ -38,6 +41,13 @@ button{
     font-size: 1rem;
     margin-top: 50px;
 }
-button:hover{
+button:hover {
     opacity: 0.8;
+    display: block;
+}
+.hide{
+    visibility: hidden;
+}
+button:hover .hide{
+    visibility: visible;
 }
