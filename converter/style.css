@@ -1,0 +1,16 @@
+*{
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display:flex;
+    gap: 2rem;
+}
