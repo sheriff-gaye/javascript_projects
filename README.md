@@ -72,6 +72,13 @@
 <td><a href="https://sheriff-gaye.github.io/Javascript_mini_projects/school/index.html" >Live Demo</a>
 
 
+<tr>
+<td>10</td>
+<td>Blog Website</td>
+<td><a href="https://sheriff-gaye.github.io/Javascript_mini_projects/blog_app/index.html" >Live Demo</a>
+
+
+
 
 </tbody>
 

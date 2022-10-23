@@ -24,3 +24,22 @@ openNavBtn.addEventListener('click',openNav)
 closeNavBtn.addEventListener('click',closeNav)
 
 
+
+const sidebar=document.querySelector('aside')
+const openSideBtn=document.querySelector('#show_sidebar-btn')
+const closeSideBtn=document.querySelector('#hide_sidebar-btn')
+
+const showSidebar= () =>{
+    sidebar.style.left='0'  ;
+    openSideBtn.style.display="none";
+    closeSideBtn.style.display="inline-block"
+} 
+
+const hideSidebar= () =>{
+    sidebar.style.left='-100%';
+    openSideBtn.style.display="inline-block";
+    closeSideBtn.style.display="none"
+} 
+
+openSideBtn.addEventListener('click',showSidebar)
+closeSideBtn.addEventListener('click',hideSidebar)
