@@ -67,29 +67,21 @@
 
 
 <tr>
-<td>10</td>
+<td>11</td>
 <td>School Website</td>
 <td><a href="https://sheriff-gaye.github.io/Javascript_mini_projects/school/index.html" >Live Demo</a>
 
 
 <tr>
-<td>10</td>
+<td>12</td>
 <td>Blog Website</td>
 <td><a href="https://sheriff-gaye.github.io/Javascript_mini_projects/blog_app/index.html" >Live Demo</a>
 
 
 <tr>
-<td>10</td>
-<td>Blog Website</td>
+<td>13</td>
+<td>Portfolio Website</td>
 <td><a href="https://sheriff-gaye.github.io/Javascript_mini_projects/portfolio/index.html" >Live Demo</a>
-
-
-
-<tr>
-<td>10</td>
-<td>Blog Website</td>
-<td><a href="https://sheriff-gaye.github.io/Javascript_mini_projects/product/index.html" >Live Demo</a>
-
 
 
 
