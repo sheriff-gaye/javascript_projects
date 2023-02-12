@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+    crossorigin=""></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <style>
+        #map { height: 180px; }
+
+    </style>
+    <h4>Fetching Mapping API</h4>
+    <p>Name: <span id="name"></span></p>
+    <p>Visibility: <span id="visi"></span></p>
+    <p>Latitude : <span id="lat"></span></p>
+    <p>longitude: <span id="lon"></span></p>
+
+    <div id="map"></div>
+
+
+
+    <script>
+
+        
+        const api_url = "https://api.wheretheiss.at/v1/satellites/25544";
+
+        async function getData() {
+            const response = await fetch(api_url);
+            const data = await response.json()
+            const latitude = data.latitude;
+            const longitude = data.longitude;
+            const name = data.name;
+            const visibility= data.visibility;
+
+
+            document.getElementById('name').innerHTML = name;
+            document.getElementById('visi').innerHTML = visibility;
+            document.getElementById('lat').innerHTML = latitude;
+            document.getElementById('lon').innerHTML = longitude;
+        }
+
+        getData();
+
+        setInterval(getData,1000);
+
+    </script>
+</body>
+
+</html>

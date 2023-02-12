@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.2.0/chart.min.js"
+        integrity="sha512-qKyIokLnyh6oSnWsc5h21uwMAQtljqMZZT17CIMXuCQNIfFSFF4tJdMOaJHL9fQdJUANid6OB6DRR0zdHrbWAw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <canvas id="myChart" width="800" height="400"></canvas>
+
+    <script>
+
+        const xlables=[]
+        const ylabels=[];
+        getData();
+
+        const ctx = document.getElementById('myChart');
+
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: xlables,
+                datasets: [{
+                    label: 'Zonal annual means, 1880-present',
+                    data:ylabels,
+                    fill:false,
+                    borderWidth: 1,
+                    borderColor:'green'
+                }]
+                   
+               
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+
+    
+        async function getData() {
+            const response = await fetch('./ZonAnn.Ts+dSST.csv');
+            const data = await response.text();
+            const row = data.split('\n').slice(1);
+
+            row.forEach(elt => {
+                const row = elt.split(',');
+                const year = row[0];
+                xlables.push(year);
+                const temp = row[1];
+                ylabels.push(parseFloat(temp));
+
+            })
+        }
+
+    </script>
+
+
+</body>
+
+</html>
