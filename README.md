@@ -13,31 +13,31 @@
 <tr>
 <td>1</td>
 <td>Github Profile</td>
-<td><a href="https://sheriff-gaye.github.io/Javascript_projects/Github-profile/index.html" >Live Demo</a>
+<td><a href="https://sheriff-gaye.github.io/javascript_projects/Github-profile/index.html" >Live Demo</a>
 
 
 <tr>
 <td>2</td>
 <td>Quizz App</td>
-<td><a href="https://sheriff-gaye.github.io/Javascript_projects/quiz-app/index.html" >Live Demo</a>
+<td><a href="https://sheriff-gaye.github.io/javascript_projects/quiz-app/index.html" >Live Demo</a>
 
 
 <tr>
 <td>3</td>
 <td>School Website</td>
-<td><a href="https://sheriff-gaye.github.io/Javascript_projects/school/index.html" >Live Demo</a>
+<td><a href="https://sheriff-gaye.github.io/javascript_projects/school/index.html" >Live Demo</a>
 
 
 <tr>
 <td>4</td>
 <td>Blog Website</td>
-<td><a href="https://sheriff-gaye.github.io/Javascript_projects/blog_app/index.html" >Live Demo</a>
+<td><a href="https://sheriff-gaye.github.io/javascript_projects/blog_app/index.html" >Live Demo</a>
 
 
 <tr>
 <td>5</td>
 <td>Portfolio Website</td>
-<td><a href="https://sheriff-gaye.github.io/Javascript_projects/portfolio/index.html" >Live Demo</a>
+<td><a href="https://sheriff-gaye.github.io/javascript_projects/portfolio/index.html" >Live Demo</a>
 
 
 
