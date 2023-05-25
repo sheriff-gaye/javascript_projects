@@ -300,6 +300,7 @@ section#services {
 .services_left h4 {
     line-height: 1.4;
     font-weight: 500;
+    color: var(--color-light);
 }
 
 .services_right h3 {
@@ -319,6 +320,10 @@ section#services {
     cursor: default;
     transition: all 400ms ease;
 
+}
+
+.services_card a{
+    color: var(--color-black);
 }
 
 .services_card:hover {
@@ -371,6 +376,7 @@ section#services {
     margin-top: 1.4rem;
     display: inline-block;
     transition: all 400ms ease;
+    color: var(--color-black);
 }
 
 .portfolio_head-right a:hover {

@@ -1,27 +1,25 @@
-const testimonials=[
+const testimonials = [
     {
-        quote:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit dolorem, error repellendus",
-        image:'./images/avatar1.jpg',
-        name:'Sheriff Gaye',
-        job:'Software Engineer'
+        quote: "Working with Harper was an absolute pleasure. Her attention to detail and expertise in web development brought my vision to life. Highly recommend her services!",
+        image: './images/avatar2.jpg',
+        name: 'John Anderson',
+        job: 'Software Engineer'
     },
     {
-        quote:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit dolorem, error repellendus",
-        image:'./images/avatar2.jpg',
-        name:'Alassan Jallow',
-        job:'Finance'
+        quote: "Harper's web development skills are exceptional. He built a responsive and visually stunning website for my business. His professionalism and dedication to quality are unmatched", 
+        image: './images/avatar1.jpg',
+        name: 'Sarah Thompson',
+        job: 'Finance'
     },
     {
-        quote:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit dolorem, error repellendus",
-        image:'./images/avatar3.jpg',
-        name:'Ousman Njie',
-        job:'Food Sciencetist'
+        quote: "I am extremely satisfied with the results of working with Emily. She created a user-friendly and dynamic website that perfectly showcases my brand. She is a true professional.", image: './images/avatar3.jpg',
+        name: 'Mark Ramirez',
+        job: 'Food Sciencetist'
     },
     {
-        quote:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit dolorem, error repellendus",
-        image:'./images/avatar5.jpg',
-        name:'Yaya Sanyang',
-        job:'Software Engineer'
+        quote: "Harper exceeded my expectations as a web developer. He not only delivered a beautifully designed website but also provided ongoing support and maintenance. A reliable and talented developer!", image: './images/avatar5.jpg',
+        name: 'Laura Chen',
+        job: 'Store Manager'
     },
-    
+
 ]
