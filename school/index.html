@@ -1,443 +1,400 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>School Website</title>
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" href="" />
-  </head>
-  <body>
-    <style>
-      body{
-        background-image: url('./images/bg-texture.png');
-      }
-    </style>
-    <nav>
-      <div class="nav_container container">
-        <a href="index.html"><h4>EGATOR</h4></a>
-        <ul class="nav_menu">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>School Website</title>
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" href="" />
+</head>
+
+<body>
+  <style>
+    body {
+      background-image: url('./images/bg-texture.png');
+    }
+  </style>
+  <nav>
+    <div class="nav_container container">
+      <a href="index.html">
+        <h4>SmartSchool</h4>
+      </a>
+      <ul class="nav_menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="courses.html">Course</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+      <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+    </div>
+  </nav>
+
+  <!--header starts here-->
+  <header>
+    <div class="container header_container">
+      <div class="header_left">
+        <h1>Grow your skills to advance your carer path</h1>
+        <p>
+          Unlock your potential and propel your career forward with our skill-enhancing programs. Gain the expertise you
+          need to excel in your chosen path and open doors to endless opportunities. Start your journey today!
+        </p>
+
+        <a href="courses.html" class="btn btn-primary">Get Started</a>
+      </div>
+      <div class="header_right">
+        <div class="header_right-image">
+          <img src="./images/header.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--header ends here-->
+
+  <!--section begins here-->
+  <section class="categories">
+    <div class="container categories_container">
+      <div class="categories_left">
+        <h1>Categories</h1>
+        <p>
+          Explore our comprehensive range of academic categories, including Science, Arts, Technology, Languages, and
+          more. Discover your passion and unleash your potential through our diverse educational offerings. Enrich your
+          learning experience today!
+        </p>
+        <a href="#" class="btn btn-primary">Learn More</a>
+      </div>
+
+      <div class="categories_right">
+        <article class="category">
+          <span class="category_icon"><i class="uil uil-atom"></i></span>
+          <h5>Science
+          </h5>
+          <p>
+            Unleash your curiosity through hands-on experiments and scientific exploration.
+
+
+          </p>
+        </article>
+
+        <article class="category">
+          <span class="category_icon"><i class="uil uil-palette"></i></span>
+          <h5>Arts
+          </h5>
+          <p>
+            Unleash your creativity and express yourself through various art forms.
+
+
+          </p>
+        </article>
+
+        <article class="category">
+          <span class="category_icon"><i class="uil uil-server"></i></span>
+          <h5>Technology
+          </h5>
+          <p>
+            Embrace the digital age and develop skills in cutting-edge technologies.
+
+
+          </p>
+        </article>
+
+        <article class="category">
+          <span class="category_icon"><i class="uil uil-english-to-chinese"></i></span>
+          <h5>Languages </h5>
+          <p>
+            Immerse yourself in the richness of languages and expand your global horizons.
+
+
+          </p>
+        </article>
+
+        <article class="category">
+          <span class="category_icon"><i class="uil uil-basketball"></i></span>
+          <h5>Sports
+          </h5>
+          <p>
+            Ignite your passion for physical activity and teamwork in exhilarating sports.
+
+
+          </p>
+        </article>
+
+        <article class="category">
+          <span class="category_icon"><i class="uil uil-users-alt"></i></span>
+          <h5>Humanities
+          </h5>
+          <p>
+            Dive into the realms of history, literature, and philosophy, nurturing critical thinking.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!--our popular courses-->
+  <section class="courses">
+    <h2>Our Popular Courses</h2>
+    <div class="container courses_container">
+      <article class="course">
+        <div class="course_image">
+          <img src="./images/blog39.jpg" alt="" />
+        </div>
+        <div class="course_info">
+          <h4>Business Information Technology</h4>
+          <p>
+            Bridge the gap between business and technology with strategic IT solutions for organizations in a digital
+            age.
+          </p>
+          <a href="courses.html" class="btn btn-primary">Learn More</a>
+        </div>
+      </article>
+
+      <article class="course">
+        <div class="course_image">
+          <img src="./images/blog58.jpg" alt="" />
+        </div>
+        <div class="course_info">
+          <h4>Geography</h4>
+          <p>
+            Explore the intricate connections between people, places, and environments, unraveling the complexities of
+            our world.
+          </p>
+          <a href="courses.html" class="btn btn-primary">Learn More</a>
+        </div>
+      </article>
+
+      <article class="course">
+        <div class="course_image">
+          <img src="./images/blog88.jpg" alt="" />
+        </div>
+        <div class="course_info">
+          <h4>Food Science</h4>
+          <p>
+            Uncover the science behind food production, safety, and innovation, shaping the future of nourishment and
+            culinary delights.
+          </p>
+          <a href="courses.html" class="btn btn-primary">Learn More</a>
+        </div>
+      </article>
+    </div>
+  </section>
+  <!--end of courses-->
+
+  <!--frequently ask questions-->
+
+  <section class="faqs">
+    <h2>Frequently Ask Question</h2>
+
+    <div class="container faqs_container">
+      <article class="faq">
+        <div class="faq_icon"><i class="uil uil-plus"></i></div>
+        <div class="question_answer">
+          <h4>What are the admission requirements for the program ?</h4>
+          <p>
+            Admission requirements vary but typically include academic qualifications, standardized test scores, and
+            application materials. Please refer to our admissions page for specific details.
+          </p>
+        </div>
+      </article>
+
+      <article class="faq">
+        <div class="faq_icon"><i class="uil uil-plus"></i></div>
+        <div class="question_answer">
+          <h4>Are scholarships available for international students?</h4>
+          <p>
+            Yes, we offer scholarships for international students based on academic merit, leadership qualities, and
+            other criteria. Visit our scholarships page for more information."
+          </p>
+        </div>
+      </article>
+      <article class="faq">
+        <div class="faq_icon"><i class="uil uil-plus"></i></div>
+        <div class="question_answer">
+          <h4>Can I switch my major after enrolling ?</h4>
+          <p>
+            Yes, it is often possible to switch majors within certain guidelines and requirements. Contact the academic
+            advising office for assistance and further instructions.
+          </p>
+        </div>
+      </article>
+      <article class="faq">
+        <div class="faq_icon"><i class="uil uil-plus"></i></div>
+        <div class="question_answer">
+          <h4>Are there opportunities for internships or co-op programs?</h4>
+          <p>
+            Absolutely! We have partnerships with local businesses and organizations to provide valuable internship and
+            co-op opportunities for students in various fields of study.
+          </p>
+        </div>
+      </article>
+
+      <article class="faq">
+        <div class="faq_icon"><i class="uil uil-plus"></i></div>
+        <div class="question_answer">
+          <h4>What support services are available for students?</h4>
+          <p>
+            We provide a range of support services, including academic advising, counseling, career guidance, tutoring,
+            and access to campus resources such as libraries and study spaces.
+          </p>
+        </div>
+      </article>
+
+      <article class="faq">
+        <div class="faq_icon"><i class="uil uil-plus"></i></div>
+        <div class="question_answer">
+          <h4>How can I get involved in extracurricular activities ?</h4>
+          <p>
+            We offer a diverse range of clubs, organizations, and student associations that cater to various interests.
+            Joining these groups is a great way to get involved and meet new people.
+          </p>
+        </div>
+      </article>
+    </div>
+  </section>
+  <!--end of faqs-->
+
+
+
+
+
+
+
+  <!--students testimonial-->
+  <section #swiperRef="" class="container testimonail_testimonial swiper  mySwiper">
+    <h2>Students Testimonials</h2>
+    <div class="swiper-wrapper">
+      <article class="testimonial swiper-slide">
+        <div class="avater">
+          <img src="./images/avatar1.jpg" alt="" />
+          <h5>Sheriff Gaye</h5>
+          <small>Students</small>
+        </div>
+        <div class="testimonial_body">
+          <p>
+            I love my school! The supportive faculty, engaging classes, and vibrant campus community make learning a
+            joyous experience.
+          </p>
+        </div>
+      </article>
+
+      <article class="testimonial swiper-slide">
+        <div class="avater">
+          <img src="./images/avatar2.jpg" alt="" />
+          <h5>Sheriff Gaye</h5>
+          <small>Students</small>
+        </div>
+        <div class="testimonial_body">
+          <p>
+            Attending this school has been life-changing. The dedicated professors and real-world experiences have
+            prepared me well for my career.
+          </p>
+        </div>
+      </article>
+
+      <article class="testimonial swiper-slide">
+        <div class="avater">
+          <img src="./images/avatar3.jpg" alt="" />
+          <h5>Sheriff Gaye</h5>
+          <small>Students</small>
+        </div>
+        <div class="testimonial_body">
+          <p>
+            I am grateful for the opportunities this school has provided. The rigorous academics and diverse student
+            body have enriched my education.
+          </p>
+        </div>
+      </article>
+    </div>
+    <div class="swiper-pagination"></div>
+  </section>
+  <!--end of testimontal-->
+
+
+
+
+  <!--footer begins here-->
+  <footer class="footer">
+    <div class="container footer_container">
+
+      <div class="footer_1">
+        <a href="index.html" class="footer_logo">
+          <h4>EGATOR</h4>
+        </a>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, iste.</p>
+      </div>
+
+
+      <div class="footer_2">
+        <h4>Permalinks</h4>
+        <ul class="permalinks">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="courses.html">Course</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
-        <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
-        <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
       </div>
-    </nav>
 
-    <!--header starts here-->
-    <header>
-      <div class="container header_container">
-        <div class="header_left">
-          <h1>Grow your skills to advance your carer path</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-            quis natus assumenda temporibus vero at quas asperiores tenetur
-            suscipit maxime.
-          </p>
-
-          <a href="courses.html" class="btn btn-primary">Get Started</a>
-        </div>
-        <div class="header_right">
-          <div class="header_right-image">
-            <img src="./images/header.svg" alt="" />
-          </div>
-        </div>
+      <div class="footer_3">
+        <h4>Primacy</h4>
+        <ul class="primacy">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms and Condition</a></li>
+          <li><a href="#">Refund Policy</a></li>
+        </ul>
       </div>
-    </header>
-    <!--header ends here-->
 
-    <!--section begins here-->
-    <section class="categories">
-      <div class="container categories_container">
-        <div class="categories_left">
-          <h1>Categories</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Repudiandae vero voluptate optio asperiores! Sapiente repellat
-            commodi eveniet recusandae unde id.
-          </p>
-          <a href="#" class="btn btn-primary">Learn More</a>
+      <div class="footer_4">
+        <h4>Contact Us</h4>
+        <div>
+          <p>+2203159064</p>
+          <p>examples@gmail.com</p>
         </div>
 
-        <div class="categories_right">
-          <article class="category">
-            <span class="category_icon"
-              ><i class="uil uil-bitcoin-circle"></i
-            ></span>
-            <h5>Blockchain</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-              sit.
-            </p>
-          </article>
 
-          <article class="category">
-            <span class="category_icon"><i class="uil uil-palette"></i></span>
-            <h5>Grapic Design</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-              sit.
-            </p>
-          </article>
-
-          <article class="category">
-            <span class="category_icon"
-              ><i class="uil uil-dollar-alt"></i
-            ></span>
-            <h5>Finance</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-              sit.
-            </p>
-          </article>
-
-          <article class="category">
-            <span class="category_icon"><i class="uil uil-megaphone"></i></span>
-            <h5>Marketing</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-              sit.
-            </p>
-          </article>
-
-          <article class="category">
-            <span class="category_icon"><i class="uil uil-music"></i></span>
-            <h5>Music</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-              sit.
-            </p>
-          </article>
-
-          <article class="category">
-            <span class="category_icon"
-              ><i class="uil uil-bitcoin-circle"></i
-            ></span>
-            <h5>Business</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-              sit.
-            </p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!--our popular courses-->
-    <section class="courses">
-      <h2>Our Popular Courses</h2>
-      <div class="container courses_container">
-        <article class="course">
-          <div class="course_image">
-            <img src="./images/course1.jpg" alt="" />
-          </div>
-          <div class="course_info">
-            <h4>Responsive Social Media Design Website UI Design</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ipsa
-              rem illum aliquid nesciunt molestiae eos?
-            </p>
-            <a href="courses.html" class="btn btn-primary">Learn More</a>
-          </div>
-        </article>
-
-        <article class="course">
-          <div class="course_image">
-            <img src="./images/course2.jpg" alt="" />
-          </div>
-          <div class="course_info">
-            <h4>Responsive Smart Homes Web Design Website</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ipsa
-              rem illum aliquid nesciunt molestiae eos?
-            </p>
-            <a href="courses.html" class="btn btn-primary">Learn More</a>
-          </div>
-        </article>
-
-        <article class="course">
-          <div class="course_image">
-            <img src="./images/course3.jpg" alt="" />
-          </div>
-          <div class="course_info">
-            <h4>Responsive Admin Dashboard Design UI Design</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ipsa
-              rem illum aliquid nesciunt molestiae eos?
-            </p>
-            <a href="courses.html" class="btn btn-primary">Learn More</a>
-          </div>
-        </article>
-      </div>
-    </section>
-    <!--end of courses-->
-
-    <!--frequently ask questions-->
-
-    <section class="faqs">
-      <h2>Frequently Ask Question</h2>
-
-      <div class="container faqs_container">
-        <article class="faq">
-          <div class="faq_icon"><i class="uil uil-plus"></i></div>
-          <div class="question_answer">
-            <h4>How do i know the right courses for ?</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-              in recusandae a ipsa nemo aut eveniet praesentium blanditiis
-              commodi eius vero fuga culpa enim, quisquam expedita ullam
-              voluptatum sint excepturi.
-            </p>
-          </div>
-        </article>
-
-        <article class="faq">
-          <div class="faq_icon"><i class="uil uil-plus"></i></div>
-          <div class="question_answer">
-            <h4>How do i know the right courses for ?</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-              in recusandae a ipsa nemo aut eveniet praesentium blanditiis
-              commodi eius vero fuga culpa enim, quisquam expedita ullam
-              voluptatum sint excepturi.
-            </p>
-          </div>
-        </article>
-        <article class="faq">
-          <div class="faq_icon"><i class="uil uil-plus"></i></div>
-          <div class="question_answer">
-            <h4>How do i know the right courses for ?</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-              in recusandae a ipsa nemo aut eveniet praesentium blanditiis
-              commodi eius vero fuga culpa enim, quisquam expedita ullam
-              voluptatum sint excepturi.
-            </p>
-          </div>
-        </article>
-        <article class="faq">
-          <div class="faq_icon"><i class="uil uil-plus"></i></div>
-          <div class="question_answer">
-            <h4>How do i know the right courses for ?</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-              in recusandae a ipsa nemo aut eveniet praesentium blanditiis
-              commodi eius vero fuga culpa enim, quisquam expedita ullam
-              voluptatum sint excepturi.
-            </p>
-          </div>
-        </article>
-
-        <article class="faq">
-          <div class="faq_icon"><i class="uil uil-plus"></i></div>
-          <div class="question_answer">
-            <h4>How do i know the right courses for ?</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-              in recusandae a ipsa nemo aut eveniet praesentium blanditiis
-              commodi eius vero fuga culpa enim, quisquam expedita ullam
-              voluptatum sint excepturi.
-            </p>
-          </div>
-        </article>
-
-        <article class="faq">
-          <div class="faq_icon"><i class="uil uil-plus"></i></div>
-          <div class="question_answer">
-            <h4>How do i know the right courses for ?</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-              in recusandae a ipsa nemo aut eveniet praesentium blanditiis
-              commodi eius vero fuga culpa enim, quisquam expedita ullam
-              voluptatum sint excepturi.
-            </p>
-          </div>
-        </article>
-      </div>
-    </section>
-    <!--end of faqs-->
-
-
-
-
-
-
-
-    <!--students testimonial-->
-    <section #swiperRef="" class="container testimonail_testimonial swiper  mySwiper">
-      <h2>Students Testimonials</h2>
-      <div class="swiper-wrapper">
-        <article class="testimonial swiper-slide">
-          <div class="avater">
-            <img src="./images/avatar1.jpg" alt="" />
-            <h5>Sheriff Gaye</h5>
-            <small>Students</small>
-          </div>
-          <div class="testimonial_body">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusantium aut in deleniti dolorem error quisquam! Ad cum
-              pariatur qui iure, possimus eos deleniti dolorem vero, incidunt
-              odit optio consequatur illum?
-            </p>
-          </div>
-        </article>
-
-        <article class="testimonial swiper-slide">
-          <div class="avater">
-            <img src="./images/avatar2.jpg" alt="" />
-            <h5>Sheriff Gaye</h5>
-            <small>Students</small>
-          </div>
-          <div class="testimonial_body">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusantium aut in deleniti dolorem error quisquam! Ad cum
-              pariatur qui iure, possimus eos deleniti dolorem vero, incidunt
-              odit optio consequatur illum?
-            </p>
-          </div>
-        </article>
-
-        <article class="testimonial swiper-slide">
-          <div class="avater">
-            <img src="./images/avatar3.jpg" alt="" />
-            <h5>Sheriff Gaye</h5>
-            <small>Students</small>
-          </div>
-          <div class="testimonial_body">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusantium aut in deleniti dolorem error quisquam! Ad cum
-              pariatur qui iure, possimus eos deleniti dolorem vero, incidunt
-              odit optio consequatur illum?
-            </p>
-          </div>
-        </article>
-
-        <article class="testimonial swiper-slide">
-          <div class="avater">
-            <img src="./images/avatar4.jpg" alt="" />
-            <h5>Sheriff Gaye</h5>
-            <small>Students</small>
-          </div>
-          <div class="testimonial_body">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusantium aut in deleniti dolorem error quisquam! Ad cum
-              pariatur qui iure, possimus eos deleniti dolorem vero, incidunt
-              odit optio consequatur illum?
-            </p>
-          </div>
-        </article>
-
-        <article class="testimonial swiper-slide">
-          <div class="avater">
-            <img src="./images/avatar5.jpg" alt="" />
-            <h5>Sheriff Gaye</h5>
-            <small>Students</small>
-          </div>
-          <div class="testimonial_body">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusantium aut in deleniti dolorem error quisquam! Ad cum
-              pariatur qui iure, possimus eos deleniti dolorem vero, incidunt
-              odit optio consequatur illum?
-            </p>
-          </div>
-        </article>
-      </div>
-      <div class="swiper-pagination"></div>    
-    </section>
-    <!--end of testimontal-->
-    
-
-
-
-    <!--footer begins here-->
-    <footer class="footer">
-      <div class="container footer_container">
+        <ul class="footer_socials">
+          <li><a href="#"><i class="uil uil-facebook-f"></i></a></li>
+          <li><a href="#"><i class="uil uil-instagram"></i></a></li>
+          <li><a href="#"><i class="uil uil-twitter"></i></a></li>
+          <li><a href="#"><i class="uil uil-linkedin"></i></a></li>
+        </ul>
         
-        <div class="footer_1">
-          <a href="index.html" class="footer_logo"><h4>EGATOR</h4></a>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, iste.</p>
-        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <small>Copyright &copy; EGATOR</small>
+    </div>
+     
 
+      
+  </footer>
 
-        <div class="footer_2">
-          <h4>Permalinks</h4>
-          <ul class="permalinks">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="courses.html">Course</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
+ 
 
-        <div class="footer_3">
-          <h4>Primacy</h4>
-          <ul class="primacy">
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms and Condition</a></li>
-            <li><a href="#">Refund Policy</a></li>
-          </ul>
-        </div>
+  <!--end of footer-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="app.js"></script>
 
-        <div class="footer_4">
-          <h4>Contact Us</h4>
-          <div>
-            <p>+2203159064</p>
-            <p>examples@gmail.com</p>
-          </div>
-
-  
-           <ul class="footer_socials">
-            <li><a href="#"><i class="uil uil-facebook-f"></i></a></li>
-            <li><a href="#"><i class="uil uil-instagram"></i></a></li>
-            <li><a href="#"><i class="uil uil-twitter"></i></a></li>
-            <li><a href="#"><i class="uil uil-linkedin"></i></a></li>
-           </ul>
-        </div>
-
-          <!-- <div class="copyright">
-            <small>Copyright &copy; EGATOR</small>
-          </div>
-        </div> -->
-    </footer>
-
-    <!--end of footer-->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>    
-    <script src="app.js"></script>
-
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 2,
-        spaceBetween: 30,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        autoplay: {
-          delay: 2000,
-          disableOnInteraction: false,
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
       },
-      });
-    </script>
-  </body>
+      autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+      },
+    });
+  </script>
+</body>
+
 </html>

@@ -56,14 +56,14 @@
     display: flex;
     gap: 1.2rem;
 }
-.contact_form input [type="text"]{
-    width:50%
-}
+
 input,textarea{
-    width: 100%;
+    width: 90%;
     padding: 1rem;
     background: var(--color-bg2);
     color: var(--color-white);
+    border-radius: .4rem;
+    resize: none;
 }
 .contact_form .btn{
     width: max-content;
