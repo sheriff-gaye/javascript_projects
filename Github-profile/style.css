@@ -30,12 +30,12 @@ body
     display: block;
     border: none;
     border-radius: 10px;
-    color: white;
+    color: black;
     font-family: inherit;
     margin-bottom: 2rem;
     font-size: 1rem;
     padding: 1rem;
-    background: #4c2885;
+    background: whitesmoke;
     box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
     0 15px 40px rgba(0, 0, 0, 0.1);
 
@@ -43,7 +43,7 @@ body
 }
 .user-form input::placeholder
 {
-    color: #bbb;
+    color: #8d8888;
 }
 .user-form input:focus
 {
@@ -51,8 +51,8 @@ body
 }
 .card {
     max-width: 800px;
-    background-color: #4c2885;
-    border-radius: 20px;
+    background-color: rgb(29, 29, 90);
+    border-radius: 40px;
     box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
       0 15px 40px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -62,7 +62,7 @@ body
   
   .avatar {
     border-radius: 50%;
-    border: 10px solid #2a2a72;
+    border: 10px solid rgb(55, 193, 235);
     height: 150px;
     width: 150px;
   }
@@ -97,11 +97,11 @@ body
   .repo {
     text-decoration: none;
     color: #fff;
-    background-color: #212a72;
+    background-color:rgb(38, 189, 240);
+    border-radius: 2px;
     font-size: 0.7rem;
     padding: 0.25rem 0.5rem;
-    margin-right: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin:1rem  0.5rem 1rem 0;
     display: inline-block;
   }
   
