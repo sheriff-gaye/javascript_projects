@@ -9,7 +9,8 @@
     border-radius: 1rem;
 }
 .contact_aside{
-    background: var(--color-primary);
+    background: var(--color-danger);
+    color: var(--color-white);
     border-radius: 1rem;
     padding: 3rem;
     position: relative;
@@ -60,7 +61,7 @@
 input,textarea{
     width: 90%;
     padding: 1rem;
-    background: var(--color-bg2);
+    background: var(--color-white);
     color: var(--color-white);
     border-radius: .4rem;
     resize: none;

@@ -31,6 +31,7 @@
 }
 .achievement_icon{
     background: var(--color-danger);
+    color: var(--color-white);
     border-radius: 1rem;
     margin-bottom: 2rem;
     padding: 0.6rem;
@@ -42,31 +43,28 @@
 .achievement_card:nth-child(3) .achievement_icon{
     background: var(--color-primary);
 }
+.achievement_card h3{
+    color: var(--color-white);
+}
 .achievement_card p{
+    color: var(--color-light);
     margin-top: 1rem;
 }
 
-.team{
-    background: var(--color-bg1);
-    box-shadow: inset 0 0 3rem rgba(0,0,0,0.5);
-}
 .team_container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 2rem;
 }
 .team_member{
-    background: var(--color-bg2);
+    background: var(--color-danger);
     border: 1px solid transparent;
     padding: 2rem;
     transition: var(--transition);
     position: relative;
     overflow: hidden;
 }
-.team_member:hover{
-    background: transparent;
-    border-color: var(--color-primary);
-}
+
 .team_member-image img{
     filter: saturate(0);
 }
@@ -76,6 +74,7 @@
 .team_member-info *{
     text-align: center;
     margin-top: 1.4rem;
+    color: var(--color-light);
 }
 .team_member-info p{
     color:var(--color-light);
@@ -88,7 +87,7 @@
     display: flex;
     flex-direction: column;
     border-radius: 1rem 0 0 1rem;
-    background: var(--color-primary);
+    background: var(--color-bg1);
     box-shadow: -2rem 0 2rem rgba(0,0,0,0.3);
     right: -100%;
 }
