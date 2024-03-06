@@ -5,8 +5,8 @@
 
 .achivement_container{
     display: grid;
-    grid-template-columns: 40% 60%;
-    gap:1.5rem;
+    grid-template-columns: 50% 50%;
+    gap:3rem;
 }
 .achivement_right > p{
     margin: 1.6rem 0 2.5rem;
@@ -63,6 +63,7 @@
     transition: var(--transition);
     position: relative;
     overflow: hidden;
+    border-radius: 1rem;
 }
 
 .team_member-image img{
